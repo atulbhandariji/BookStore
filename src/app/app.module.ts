@@ -10,12 +10,16 @@ import { FormsModule } from '@angular/forms';
 import { DatePipe } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { LoginComponent } from './login/login.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeDetailsComponent,
-    EmployeeFormComponent
+    EmployeeFormComponent,
+    LoginComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
